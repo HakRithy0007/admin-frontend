@@ -1,18 +1,30 @@
 <script lang="ts">
-    export const iframeHeight = '800px'
-    export const description = 'A sidebar with collapsible sections.'
+export const iframeHeight = '800px'
+export const description = 'A sidebar with collapsible sections.'
 </script>
+
 <script setup lang="ts">
-import AppSidebar from '../components/AppSidebar.vue'
-import { SidebarInset, SidebarProvider, SidebarTrigger} from '../components/ui/sidebar'
+import AppSidebar from '../../src/components/AppSidebar.vue'
+import Header from '../../src/components/Header.vue'
+import {
+  SidebarInset,
+  SidebarProvider,
+} from '../components/ui/sidebar'
 </script>
+
 <template>
+ <div class="h-[100vh] w-full">
   <SidebarProvider>
     <AppSidebar />
     <SidebarInset>
-      <div class="flex flex-1 flex-col gap-4 p-4">
+      <div class="header">
+          <Header />
+      </div>
+      <div class="">
         <router-view></router-view>
       </div>
     </SidebarInset>
+
   </SidebarProvider>
+ </div>
 </template>

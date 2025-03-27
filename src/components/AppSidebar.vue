@@ -40,7 +40,7 @@ function setActiveItem(itemTitle: string) {
 <template>
   <Sidebar v-bind="props">
     <SidebarContent class="gap-0">
-      <div class="h-[64px] flex justify-center items-center">HI</div>
+      <div class="h-[56px] flex justify-center items-center">HI</div>
       <SidebarMenu>
         <SidebarMenuItem v-for="item in data.navMain" :key="item.title" class="px-2">
           <SidebarMenuButton :class="{   'bg-blue-500 hover:bg-blue-500 hover:text-white  text-white': activeItem === item.title,  'bg-transparent text-black': activeItem !== item.title  }" @click="setActiveItem(item.title)" class="text-center flex justify-start items-center pl-8 py-6">
