@@ -64,7 +64,10 @@ module.exports = {
   				ring: 'hsl(var(--sidebar-ring))'
   			}
   		}
-  	}
+  	},
+	  fontFamily : {
+		kulen : ['system-ui'],
+	}
   },
   plugins: [require("tailwindcss-animate")],
 }
