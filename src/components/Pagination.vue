@@ -1,5 +1,5 @@
 <template>
-    <div class="pagination h-[50px] flex justify-center items-center">
+    <div class="pagination h-[50px] flex justify-center items-center p-1">
       <Pagination
         v-slot="{ page }"
         :total="total"
@@ -11,7 +11,7 @@
         :items-per-page="itemPerPage"
       >
         <PaginationList v-slot="{ items }" class="flex items-center gap-1">
-          <PaginationFirst />
+          <!-- <PaginationFirst /> -->
           <PaginationPrev class="hidden sm:flex sm:items-center" />
   
           <!-- paginations -->
@@ -23,8 +23,8 @@
               as-child
             >
               <Button
-                class="w-10 h-10 p-0 hover:bg-blue-300"
-                :class="item.value === page ? 'bg-[#369bda]' : 'border-none bg-white text-black'"
+                class="w-9 h-9 p-0 hover:bg-blue-300"
+                :class="item.value === page ? 'bg-blue-500 hover:bg-blue-600' : 'border-none bg-blue-600 text-black'"
               >
                 {{ item.value }}
               </Button>
@@ -38,7 +38,7 @@
           </template>
   
           <PaginationNext class="hidden sm:flex sm:items-center" />
-          <PaginationLast />
+          <!-- <PaginationLast /> -->
         </PaginationList>
       </Pagination>
     </div>

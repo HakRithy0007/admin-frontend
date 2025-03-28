@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import MainLayout from '@/layout/MainLayout.vue';
 import LoginView from '../views/LoginView.vue'; 
-import UserView from '@/views/UserView.vue';
+import CustomerAudit from '@/views/CustomerAudit.vue';
+import InventoryView from '@/views/InventoryView.vue';
 
 const routes = [
   {
@@ -20,9 +21,14 @@ const routes = [
         component: HomeView,
       },
       {
-        path: 'user',
-        name: 'user',
-        component: UserView,
+        path: 'customeraudit',
+        name: 'customeraudit',
+        component: CustomerAudit,
+      },
+      {
+        path: 'inventory',
+        name: 'inventory',
+        component: InventoryView,
       },
     ]
   }

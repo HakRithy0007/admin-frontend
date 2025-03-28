@@ -12,7 +12,7 @@ const router = useRouter()
 
 const handleSubmit = (event: Event) => {
   event.preventDefault()
-  if (username.value === 'ADMIN' && password.value === '123') {
+  if (username.value === 'ADMIN1' && password.value === '123456') {
     router.push({ path: '/dashboard/home' })
   }else{
     alert('Invalid username of password')

@@ -1,20 +1,38 @@
+<!-- components/Header.vue -->
 <template>
-   <header class="flex sticky top-0 bg-background h-14 shrink-0 items-center gap-2 border-b px-6">
-     <div class="flex justify-between items-center w-full">
-      <div class="left-side flex justify-center items-center">
-        <SidebarTrigger class="-ml-1" />
-      </div>
-      <div class="right-side">
-        <Avatar class="w-[45px] h-[45px]">
-          <AvatarImage src="/src/assets/images/profile/pf1.png" alt="pf1" />
-          <AvatarFallback>CN</AvatarFallback>
-        </Avatar>
-      </div>
-     </div>
-      </header>
-</template>
+    <header class="h-[60px] bg-white shadow-md  flex justify-between items-center pr-4 pl-4">
+      <!-- Mobile Sidebar Toggle -->
+      <button @click="toggleSidebar" class="lg:hidden focus:outline-none">
+        <Icon v-if="!isSidebarOpen" icon="mi:menu" width="1.6em" height="1.6em" />
+        <Icon v-else icon="mi:menu" width="1.6em" height="1.6em" />
+      </button>
 
-<script setup lang="ts">
-import { SidebarTrigger } from '../../src/components/ui/sidebar'
-import { Avatar, AvatarFallback, AvatarImage } from '../../src/components/ui/avatar'
-</script>
+      <!-- Header Content -->
+      <div class="flex-1 ml-4">
+        <h2 class="text-xl font-semibold">Welcome, Admin</h2>
+      </div>
+  
+      <!-- Header Actions -->
+      <div class="flex items-center space-x-4">
+        <button class="text-gray-600 hover:text-gray-800">
+          <Icon icon="iconamoon:notification" width="1.2em" height="1.2em" />
+        </button>
+        <button class="text-gray-600 hover:text-gray-800">
+          <Icon icon="lets-icons:setting-line" width="1.2em" height="1.2em" />
+        </button>
+      </div>
+    </header>
+  </template>
+  
+  <script setup lang="ts">
+  import { defineProps, defineEmits } from 'vue';
+  import { Icon } from "@iconify/vue";
+  
+  defineProps<{ isSidebarOpen: boolean }>();
+  const emit = defineEmits(['toggle-sidebar']);
+  
+  const toggleSidebar = () => {
+    emit('toggle-sidebar');
+  };
+  </script>
+  
