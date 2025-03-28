@@ -20,7 +20,7 @@ import {
       <div class="header">
           <Header />
       </div>
-      <div class="">
+      <div class="content">
         <router-view></router-view>
       </div>
     </SidebarInset>
