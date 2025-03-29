@@ -6,8 +6,7 @@
         <input
           type="text"
           placeholder="Search products..."
-          class="border border-gray-300 rounded px-4 py-2 w-1/3 focus:ring-2 focus:ring-blue-500 outline-none"
-        />
+          class="border border-gray-300 rounded px-4 py-2 w-1/3 focus:ring-2 focus:ring-blue-500 outline-none"/>
         <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
           + Add Product
         </button>
