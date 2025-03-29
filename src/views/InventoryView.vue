@@ -11,6 +11,7 @@
           + Add Product
         </button>
       </div>
+      
   
       <!-- Inventory Table -->
       <div class="overflow-x-auto bg-white shadow-md rounded">
