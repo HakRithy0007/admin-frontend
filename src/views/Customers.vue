@@ -3,6 +3,7 @@
   
       <!-- Search Bar -->
       <div class="mb-6 flex justify-between">
+        
         <input
           type="text"
           placeholder="Search customers..."
@@ -12,7 +13,7 @@
           + Add Customer
         </button>
       </div>
-      
+
   
       <!-- Customers Table -->
       <div class="overflow-x-auto bg-white shadow-md">
