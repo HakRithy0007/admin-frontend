@@ -39,7 +39,12 @@ defineProps<{ isSidebarOpen: boolean }>();
 
 const navItems = [
   { to: '/dashboard/home', label: 'Dashboard', icon: 'material-symbols:dashboard-outline-rounded' },
-  { to: '/dashboard/customeraudit', label: 'Cutomer Audit ', icon: 'lets-icons:user' },
-  { to: '/dashboard/inventory', label: 'Inventory', icon: 'material-symbols:inventory-2-outline-rounded' }
+  { to: '/dashboard/customeraudit', label: 'Customer Audit', icon: 'lets-icons:user' },
+  { to: '/dashboard/inventory', label: 'Inventory', icon: 'material-symbols:inventory-2-outline-rounded' },
+  { to: '/dashboard/products', label: 'Products', icon: 'material-symbols:shopping-cart-outline' },
+  { to: '/dashboard/orders', label: 'Orders', icon: 'material-symbols:receipt-outline' },
+  { to: '/dashboard/customers', label: 'Customers', icon: 'bi:people' },
+  { to: '/dashboard/reviews', label: 'Reviews', icon: 'material-symbols:rate-review-outline' },
+  { to: '/dashboard/settings', label: 'Settings', icon: 'material-symbols:settings-outline' }
 ];
 </script>

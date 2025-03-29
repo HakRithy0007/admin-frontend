@@ -5,7 +5,7 @@
     <div class="flex flex-col md:flex-row md:justify-between py-2 sticky top-[-2px] z-100 gap-3 h-[80px] mb-8 md:mb-1">
       <div class="flex justify-between items-center gap-2 md:justify-center">
           <div class="reload-page-button">
-          <Button size="icon" @click="reloadPage()">
+          <Button class="w-[40px]" size="icon" @click="reloadPage()">
             <Icon icon="hugeicons:arrow-reload-horizontal" width="1.2em" height="1.2em" />
           </Button>
         </div>
@@ -196,7 +196,7 @@ onMounted(async () => {
   try{
     let { query } = router.currentRoute.value;
     const { date: queryDate, page } = query;
-    
+
     activePage.value = page ? Number(page) : 1;
     let dateVal = dayjs().format("YYYY-MM-DD");
     if (queryDate) {
