@@ -9,7 +9,7 @@
 
       <!-- Header Content -->
       <div class="flex-1 ml-4">
-        <h2 class="text-xl font-semibold">Welcome, Admin</h2>
+        <h2 class="text-xl font-semibold">Hi, Admin</h2>
       </div>
   
       <!-- Header Actions -->
