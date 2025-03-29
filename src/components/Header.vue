@@ -1,6 +1,6 @@
-<!-- components/Header.vue -->
 <template>
     <header class="h-[60px] bg-white shadow-md  flex justify-between items-center pr-4 pl-4">
+      
       <!-- Mobile Sidebar Toggle -->
       <button @click="toggleSidebar" class="lg:hidden focus:outline-none">
         <Icon v-if="!isSidebarOpen" icon="mi:menu" width="1.6em" height="1.6em" />
