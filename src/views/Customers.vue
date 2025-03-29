@@ -2,7 +2,7 @@
       <h1 class="text-2xl font-semibold mb-4">Customers</h1>
   
       <!-- Search Bar -->
-      <div class="mb-4 flex justify-between">
+      <div class="mb-6 flex justify-between">
         <input
           type="text"
           placeholder="Search customers..."
