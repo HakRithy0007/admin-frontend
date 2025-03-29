@@ -169,7 +169,7 @@ async function handlePagination(page: number) {
   });
   const dateVal = query.date?.toString() || "";
   if (activePage.value !== previousPage) {
-  await loadAuditLog(page, dateVal)
+  // await loadAuditLog(page, dateVal)
 }
 }
 
@@ -205,7 +205,7 @@ onMounted(async () => {
     }
 
     handleSelectDate(dateVal)
-    await loadAuditLogs(activePage.value, dateVal);
+    // await loadAuditLogs(activePage.value, dateVal);
   } catch (error) {
     console.error("Error in onMounted:", error);
   }
