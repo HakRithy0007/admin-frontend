@@ -12,6 +12,7 @@
           + Add Customer
         </button>
       </div>
+      
   
       <!-- Customers Table -->
       <div class="overflow-x-auto bg-white shadow-md">
