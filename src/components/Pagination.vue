@@ -1,8 +1,6 @@
 <template>
     <div class="pagination h-[50px] flex justify-center items-center p-1">
-      <Pagination v-slot="{ page }" :total="total"
-        :sibling-count="1"
-        show-edges
+      <Pagination v-slot="{ page }" :total="total" :sibling-count="1" show-edges
         :page="activePage"
         :default-page="activePage"
         @update:page="handleChangePage"
