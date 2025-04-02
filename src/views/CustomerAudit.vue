@@ -210,4 +210,5 @@ onMounted(async () => {
     console.error("Error in onMounted:", error);
   }
 });
+
 </script>

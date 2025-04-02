@@ -13,7 +13,6 @@
           + Add Customer
         </button>
       </div>
-
   
       <!-- Customers Table -->
       <div class="overflow-x-auto bg-white shadow-md">
@@ -71,7 +70,6 @@
       </div>
   </template>
   
-
 <script setup lang="ts">
 
 </script>
