@@ -21,12 +21,7 @@
                 {{ item.value }}
               </Button>
             </PaginationListItem>
-            <PaginationEllipsis
-              v-else
-              :key="item.type"
-              :index="index"
-              class="text-[#369bda]"
-            />
+            <PaginationEllipsis v-else :key="item.type" :index="index" class="text-[#369bda]" />
           </template>
   
           <PaginationNext class="hidden sm:flex sm:items-center" />
