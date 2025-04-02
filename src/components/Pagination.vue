@@ -16,12 +16,7 @@
   
           <!-- paginations -->
           <template v-for="(item, index) in items">
-            <PaginationListItem
-              v-if="item.type === 'page'"
-              :key="index"
-              :value="item.value"
-              as-child
-            >
+            <PaginationListItem v-if="item.type === 'page'" :key="index" :value="item.value" as-child>
               <Button
                 class="w-9 h-9 p-0 hover:bg-blue-300"
                 :class="item.value === page ? 'bg-blue-500 hover:bg-blue-600' : 'border-none bg-blue-600 text-black'"
