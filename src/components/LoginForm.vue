@@ -42,15 +42,11 @@ const handleSubmit = (event: Event) => {
                 Forgot your password?
               </a>
             </div>
-            <Button type="submit" class="w-full">
-              Login
-            </Button>
+            <Button type="submit" class="w-full">Login</Button>
             <div class="relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t after:border-border"></div>
             <div class="text-center text-sm">
               Don&apos;t have an account?
-              <a href="#" class="underline underline-offset-4">
-                Sign up
-              </a>
+              <a href="#" class="underline underline-offset-4">Sign up</a>
             </div>
           </div>
         </form>
