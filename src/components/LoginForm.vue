@@ -31,12 +31,7 @@ const handleSubmit = (event: Event) => {
             </div>
             <div class="grid gap-2">
               <Label for="username">Username :</Label>
-              <Input
-                id="text"
-                type="text"
-                v-model="username"
-                required
-              />
+              <Input id="text" type="text" v-model="username" required />
             </div>
             <div class="grid gap-2">
               <div class="flex items-center">
