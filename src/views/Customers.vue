@@ -34,9 +34,7 @@
               <td class="p-3 text-nowrap">Jane Smith</td>
               <td class="p-3 text-nowrap">jane@example.com</td>
               <td class="p-3 text-nowrap">
-                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-red-100 text-red-700">
-                  Inactive
-                </span>
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-red-100 text-red-700">Inactive</span>
               </td>
               <td class="p-3 text-center">
                 <button class="text-blue-600 hover:underline mr-2">Edit</button>
