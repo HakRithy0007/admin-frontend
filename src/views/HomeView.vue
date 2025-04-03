@@ -8,6 +8,6 @@ export const description = 'A sidebar with collapsible sections.'
 
 <template>
 <div class="text-red-500 bg-red-500">
-  hellodaswfs
+  hello
 </div>
 </template>
