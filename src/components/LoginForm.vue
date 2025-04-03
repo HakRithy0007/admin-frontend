@@ -38,9 +38,7 @@ const handleSubmit = (event: Event) => {
                 <Label for="password">Password :</Label>
               </div>
               <Input id="password" type="password" v-model="password" required />
-              <a href="#" class="ml-auto text-sm underline-offset-2 hover:underline">
-                Forgot your password?
-              </a>
+              <a href="#" class="ml-auto text-sm underline-offset-2 hover:underline">Forgot your password?</a>
             </div>
             <Button type="submit" class="w-full">Login</Button>
             <div class="relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t after:border-border"></div>
