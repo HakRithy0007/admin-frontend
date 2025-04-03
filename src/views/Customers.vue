@@ -23,9 +23,7 @@
               <td class="p-3 text-nowrap">John Doe</td>
               <td class="p-3 text-nowrap">john@example.com</td>
               <td class="p-3 text-nowrap">
-                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-green-100 text-green-700">
-                  Active
-                </span>
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-green-100 text-green-700">Active</span>
               </td>
               <td class="p-3 text-center text-nowrap">
                 <button class="text-blue-600 hover:underline mr-2">Edit</button>
