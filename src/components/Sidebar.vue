@@ -1,6 +1,5 @@
 <template>
-  <aside :class="[ 'fixed lg:static z-40 transform transition-transform duration-600 ease-in-out', isSidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0', 'w-64 bg-gray-800 text-white h-full' ]"
-  >
+  <aside :class="[ 'fixed lg:static z-40 transform transition-transform duration-600 ease-in-out', isSidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0', 'w-64 bg-gray-800 text-white h-full' ]">
     <div class="p-4">
       <h1 class="text-xl font-bold mb-6 p-2">ADMIN DASHBOARD</h1>
       <nav>
