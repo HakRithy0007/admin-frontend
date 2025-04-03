@@ -1,7 +1,5 @@
 <template>
-  <aside
-    :class="[
-      'fixed lg:static z-40 transform transition-transform duration-600 ease-in-out',
+  <aside :class="[ 'fixed lg:static z-40 transform transition-transform duration-600 ease-in-out',
       isSidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0',
       'w-64 bg-gray-800 text-white h-full'
     ]"
