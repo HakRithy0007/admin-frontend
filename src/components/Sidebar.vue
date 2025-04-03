@@ -33,9 +33,8 @@ import { defineProps } from 'vue';
 import { useRoute } from 'vue-router';
 import { Icon } from '@iconify/vue';
 
-const route = useRoute();
-
 defineProps<{ isSidebarOpen: boolean }>();
+const route = useRoute();
 
 const navItems = [
   { to: '/dashboard/home', label: 'Dashboard', icon: 'material-symbols:dashboard-outline-rounded' },
