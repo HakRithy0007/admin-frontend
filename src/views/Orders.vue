@@ -3,14 +3,8 @@
   
       <!-- Search Bar -->
       <div class="mb-4 flex justify-between">
-        <input
-          type="text"
-          placeholder="Search orders..."
-          class="border border-gray-300 rounded-lg px-4 py-2 w-1/3 focus:ring-2 focus:ring-blue-500 outline-none"
-        />
-        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-          + Add Orders
-        </button>
+        <input type="text" placeholder="Search orders..." class="border border-gray-300 rounded-lg px-4 py-2 w-1/3 focus:ring-2 focus:ring-blue-500 outline-none" />
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">+ Add Orders</button>
       </div>
   
       <!-- Orders Table -->
