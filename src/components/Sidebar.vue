@@ -6,11 +6,7 @@
       <nav>
         <ul>
           <li v-for="item in navItems" :key="item.to" class="mb-2">
-            <router-link
-              :to="item.to"
-              class="block py-3 px-6 transition-colors rounded-lg my-4"
-              :class="{ 'bg-blue-500': route.path === item.to }"
-            >
+            <router-link :to="item.to" class="block py-3 px-6 transition-colors rounded-lg my-4" :class="{ 'bg-blue-500': route.path === item.to }" >
               <div class="flex items-center">
                 <Icon :icon="item.icon" class="mr-2" width="1.2em" height="1.2em" />
                 <span class="text-[16px]">{{ item.label }}</span>
