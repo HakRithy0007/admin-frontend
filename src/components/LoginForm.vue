@@ -37,12 +37,7 @@ const handleSubmit = (event: Event) => {
               <div class="flex items-center">
                 <Label for="password">Password :</Label>
               </div>
-              <Input
-                id="password"
-                type="password"
-                v-model="password"
-                required
-              />
+              <Input id="password" type="password" v-model="password" required />
               <a href="#" class="ml-auto text-sm underline-offset-2 hover:underline">
                 Forgot your password?
               </a>
