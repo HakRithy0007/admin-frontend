@@ -46,6 +46,7 @@
                 <button class="text-nowrap text-red-600 hover:underline">Delete</button>
               </td>
             </tr>
+            
             <tr class="border-t">
               <td class="p-3">REV003</td>
               <td class="p-3">MacBook Pro 16"</td>
