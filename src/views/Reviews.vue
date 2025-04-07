@@ -10,6 +10,7 @@
       <div class="overflow-x-auto bg-white shadow-md rounded">
         <table class="min-w-full border-collapse">
           <thead class="bg-gray-200">
+            
             <tr>
               <th class="p-3 text-center text-nowrap">Review ID</th>
               <th class="p-3 text-center text-nowrap">Product Name</th>
@@ -20,7 +21,7 @@
             </tr>
           </thead>
           <tbody>
-            
+
             <tr class="border-t">
               <td class="p-3">REV001</td>
               <td class="p-3">iPhone 13</td>
