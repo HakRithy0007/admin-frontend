@@ -6,7 +6,6 @@
         <input type="text" placeholder="Search reviews..." class="border border-gray-300 roundedpx-4 py-2 w-1/3 focus:ring-2 focus:ring-blue-500 outline-none" />
         <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">+ Add Review</button>
       </div>
-  
       <!-- Reviews Table -->
       <div class="overflow-x-auto bg-white shadow-md rounded">
         <table class="min-w-full border-collapse">
