@@ -96,6 +96,7 @@ const invoices: Invoice[] = [
     gender: 'Male',
     totalAmount: '$250.00',
   },
+  
   {
     invoice: 'INV002',
     paymentStatus: 'Pending',
@@ -190,8 +191,6 @@ const handleWeekly = async () => {
   const startDate = dayjs().subtract(7, "day");
   await handleSelectDate(startDate);
 };
-
-
 
 // onMounted
 onMounted(async () => {
