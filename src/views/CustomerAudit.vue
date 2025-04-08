@@ -194,7 +194,7 @@ const handleWeekly = async () => {
 };
 
 // onMounted
-onMounted(async () => {
+onMounted(async () => { 
   try{
     let { query } = router.currentRoute.value;
     const { date: queryDate, page } = query;
