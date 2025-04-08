@@ -96,7 +96,7 @@ const invoices: Invoice[] = [
     gender: 'Male',
     totalAmount: '$250.00',
   },
-  
+
   {
     invoice: 'INV002',
     paymentStatus: 'Pending',
@@ -106,6 +106,7 @@ const invoices: Invoice[] = [
     gender: 'Female',
     totalAmount: '$150.00',
   },
+
   {
     invoice: 'INV003',
     paymentStatus: 'Unpaid',
@@ -202,8 +203,9 @@ onMounted(async () => {
     let dateVal = dayjs().format("YYYY-MM-DD");
     if (queryDate) {
       dateVal = queryDate.toString();
-      selectedDate.value = parseDate(dayjs(dateVal).format("YYYY-MM-DD"));
+      selectedDate.value = parseDate(dayjs(dateVal).format("YYYY-MM-DD")); 
     }
+
 
     handleSelectDate(dateVal)
     // await loadAuditLogs(activePage.value, dateVal);
