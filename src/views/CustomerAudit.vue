@@ -190,7 +190,7 @@ const handleYesterday = async () => {
 // Handle Weekly
 const handleWeekly = async () => {
   const startDate = dayjs().subtract(7, "day");
-  await handleSelectDate(startDate);
+  await handleSelectDate(startDate); 
 };
 
 // onMounted
