@@ -4,11 +4,11 @@ import LoginView from '@/views/LoginView.vue';
 import HomeView from '@/views/HomeView.vue';
 import CustomerAudit from '@/views/CustomerAudit.vue';
 import InventoryView from '@/views/InventoryView.vue';
-import Products from '@/views/Products.vue';
-import Orders from '@/views/Orders.vue';
-import Customers from '@/views/Customers.vue';
-import Reviews from '@/views/Reviews.vue';
-import Settings from '@/views/Settings.vue';
+import Products from '@/views/ProductsView.vue';
+import Orders from '@/views/OrdersView.vue';
+import Customers from '@/views/CustomersView.vue';
+import Reviews from '@/views/ReviewsView.vue';
+import Settings from '@/views/SettingsView.vue';
 
 const routes = [
   {
