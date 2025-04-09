@@ -26,7 +26,6 @@
   import {
     Pagination,
     PaginationEllipsis,
-    PaginationFirst,
     PaginationList,
     PaginationListItem,
     PaginationNext,
