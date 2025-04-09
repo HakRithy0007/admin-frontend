@@ -27,7 +27,6 @@
     Pagination,
     PaginationEllipsis,
     PaginationFirst,
-    PaginationLast,
     PaginationList,
     PaginationListItem,
     PaginationNext,
