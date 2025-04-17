@@ -17,14 +17,14 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import { RouterView } from 'vue-router';
-import Sidebar from '@/components/Sidebar.vue';
-import Header from '@/components/Header.vue';
+  import { ref } from 'vue';
+  import { RouterView } from 'vue-router';
+  import Sidebar from '@/components/Sidebar.vue';
+  import Header from '@/components/Header.vue';
 
-const isSidebarOpen = ref(false);
-const toggleSidebar = () => {
-  isSidebarOpen.value = !isSidebarOpen.value;
+  const isSidebarOpen = ref(false);
+  const toggleSidebar = () => {
+    isSidebarOpen.value = !isSidebarOpen.value;
 };
 
 </script>
