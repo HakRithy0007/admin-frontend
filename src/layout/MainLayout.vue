@@ -1,5 +1,6 @@
 <template>
   <div class="flex h-[100vh] overflow-hidden">
+    
     <!-- Sidebar -->
     <Sidebar :isSidebarOpen="isSidebarOpen" />
 
