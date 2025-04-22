@@ -6,7 +6,7 @@
         <Icon v-if="!isSidebarOpen" icon="mi:menu" width="1.6em" height="1.6em" />
         <Icon v-else icon="mi:menu" width="1.6em" height="1.6em" />
       </button>
-      
+
       <!-- Header Content -->
       <div class="flex-1 ml-4">
         <h2 class="text-xl font-semibold">Hi, Admin</h2>
@@ -24,7 +24,7 @@
     </header>
   </template>
   
-  
+
   <script setup lang="ts">
   import { defineProps, defineEmits } from 'vue';
   import { Icon } from "@iconify/vue";
