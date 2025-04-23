@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import MainLayout from '@/layout/MainLayout.vue';
 import LoginView from '@/views/LoginView.vue';
-import HomeView from '@/views/HomeView.vue';
+import DashboardView from '@/views/DashboardView.vue';
 import CustomerAudit from '@/views/CustomerAudit.vue';
 import InventoryView from '@/views/InventoryView.vue';
 import Products from '@/views/ProductsView.vue';
@@ -23,7 +23,7 @@ const routes = [
       {
         path: 'home',
         name: 'home',
-        component: HomeView,
+        component: DashboardView,
       },
       {
         path: 'customeraudit',

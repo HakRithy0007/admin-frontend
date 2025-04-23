@@ -78,7 +78,7 @@ import { Button } from "@/components/ui/button";
 import { Calendar } from '@/components/ui/calendar';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Icon } from '@iconify/vue';
-import { type Invoice } from '@/types/type'
+import { type Invoice } from '@/types/invoice'
 import router from "@/router/index";
 import { type DateValue, parseDate } from "@internationalized/date";
 
