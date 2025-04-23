@@ -1,4 +1,5 @@
 <template>
+
   <div class="flex flex-col h-[calc(100vh-92px)]">
 
     <!-- Header content -->
@@ -40,10 +41,10 @@
     <!-- Table Section -->
     <div class="table-section flex-grow  relative overflow-hidden">
       <div class="w-full h-full overflow-y-auto">
-        <table class="table w-[1300px] md:w-full border border-gray-300 border-collapse">
-          <thead class="bg-gray-300 sticky top-[-2px] z-10 ">
+        <table class="table w-[1300px] md:w-full border-[1px] border-gray-200 border-collapse">
+          <thead class="bg-gray-200 sticky top-[-2px] z-10 ">
             <tr>
-              <th v-for="header in tableHeaders" :key="header.key" class="table-header border-2 text-center text-nowrap text-gray-600 border-gray-200 p-2 ">
+              <th v-for="header in tableHeaders" :key="header.key" class="table-header border-[1px] text-center text-nowrap text-gray-600 border-gray-200 p-2 ">
                 <div class="flex justify-center items-center gap-2">
                   <span>{{ header.label }}</span>
                   <span><Icon v-if="header.icon" :icon="header.icon"  /></span>
