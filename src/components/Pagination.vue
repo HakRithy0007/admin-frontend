@@ -3,19 +3,19 @@
       <Pagination v-slot="{ page }" :total="total" :sibling-count="1" show-edges :page="activePage" :default-page="activePage" @update:page="handleChangePage" :items-per-page="itemPerPage">
         <PaginationList v-slot="{ items }" class="flex items-center gap-1">
           <!-- <PaginationFirst /> -->
-          <PaginationPrev class="hidden sm:flex sm:items-center" />
+          <PaginationPrev class="hidden sm:flex sm:items-center w-10 h-10" />
   
           <!-- paginations -->
           <template v-for="(item, index) in items">
             <PaginationListItem v-if="item.type === 'page'" :key="index" :value="item.value" as-child>
-              <Button class="w-9 h-9 p-0 hover:bg-blue-300" :class="item.value === page ? 'bg-blue-500 hover:bg-blue-600' : 'border-none bg-blue-600 text-black'">
+              <Button class="w-10 h-10 p-0 hover:bg-blue-300" :class="item.value === page ? 'bg-blue-500 hover:bg-blue-600' : 'border-none bg-blue-600 text-black'">
                 {{ item.value }}
               </Button>
             </PaginationListItem>
             <PaginationEllipsis v-else :key="item.type" :index="index" class="text-[#369bda]" />
           </template>
   
-          <PaginationNext class="hidden sm:flex sm:items-center" />
+          <PaginationNext class="hidden sm:flex sm:items-center w-10 h-10" />
           <!-- <PaginationLast /> -->
         </PaginationList>
       </Pagination>

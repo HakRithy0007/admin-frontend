@@ -13,7 +13,7 @@
          </div>
 
          <!-- Table section -->
-          <div class="table-section flex-grow relative overflow-hidden">
+          <div class="table-section flex-grow relative overflow-hidden mt-2">
             <div class="w-full h-full overflow-y-auto">
               <table class="table w-[600px] md:w-full border-[1px] border-gray-200 border-collapse">
                 <thead class="bg-gray-200 sticky top-[-2px] z-10">
@@ -42,7 +42,7 @@
           </div>
 
           <!-- Pagination -->
-           <div class="pagination flex items-center justify-center bottom-0 sticky border-t-2 border-gray-300">
+           <div class="pagination flex items-center justify-center bottom-0 sticky border-t border-gray-300">
             <Pagination :active-page="activePage" :total="totalData" :item-per-page="perPageData"/>
            </div>
 

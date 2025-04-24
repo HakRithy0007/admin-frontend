@@ -64,9 +64,9 @@
     </div>
 
     <!-- Pagination -->
-    <div class="pagination flex items-center justify-center bottom-0 sticky border-t-2 border-gray-300">
-      <Pagination :active-page="activePage" :total="totalData" :item-per-page="perPageData" @click-page="handlePagination"/>
-    </div>
+    <div class="pagination flex items-center justify-center bottom-0 sticky border-t border-gray-300">
+            <Pagination :active-page="activePage" :total="totalData" :item-per-page="perPageData"/>
+      </div>
   </div>
 </template>
 
