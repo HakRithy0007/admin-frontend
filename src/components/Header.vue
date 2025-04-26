@@ -35,4 +35,3 @@
     emit('toggle-sidebar');
   };
   </script>
-  
