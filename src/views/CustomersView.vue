@@ -18,7 +18,6 @@
               <th class="p-3 text-center">Actions</th>
             </tr>
           </thead>
-          
           <tbody>
             <tr class="border-t">
               <td class="p-3 text-nowrap">John Doe</td>
